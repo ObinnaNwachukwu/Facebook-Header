@@ -1,0 +1,96 @@
+.Main {
+    /* background-color: green; */
+    height: 90px;
+    display: flex;
+    align-content: center;
+    width: 100%;
+}
+
+.Img1 {
+    width: 45px;
+    margin-top: 5px;
+ 
+}
+
+.Main2 {
+    /* background-color: blue; */
+    width: 20%;
+    gap: 10px;
+}
+
+.input {
+    border-radius: 40px;
+    background-color: whitesmoke;
+    border: none;
+    height: 30px;
+    width: 90%;
+    margin-top: 30px;
+
+}
+
+.Main2 {
+    display: flex;
+}
+
+.Img2 {
+    width: 30px;
+
+}
+
+.Img3 {
+    width: 30px;
+}
+
+.Img4 {
+    width: 30px;
+}
+
+.Img5 {
+    width: 30px;
+}
+
+.img6 {
+    width: 30px;
+}
+
+.img7 {
+    width: 30px;
+}
+
+.img8 {
+    width: 30px;
+}
+
+.img9 {
+    width: 30px;
+    height: 30px;
+    border-radius: 70px;
+    margin-top: 30px;
+}
+
+
+.Main4 {
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    margin-left: 250px;
+    gap: 20px;
+    width: 200px;
+}
+
+.Main3 {
+    display: flex;
+    justify-content: center;
+    gap: 65px;
+    align-content: center;
+    margin-left: 200px;
+    /* background-color: red; */
+    /* width: 700px; */
+}
+
+@media screen and (max-width: 769px) {
+    .Main3 {
+        display: none;
+    }
+}
